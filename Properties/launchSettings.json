@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "PseudoRMI_CalculatorServer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58601;http://localhost:58602"
+    }
+  }
+}
