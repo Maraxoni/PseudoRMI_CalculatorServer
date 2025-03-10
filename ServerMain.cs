@@ -15,7 +15,7 @@ namespace PseudoRMI_CalculatorServer
             var builder = WebApplication.CreateBuilder(args);
 
             // Configure ASP.NET Core to listen on all interfaces (0.0.0.0) and port 8080
-            builder.WebHost.UseUrls("http://0.0.0.0:8080");
+            builder.WebHost.UseUrls("http://192.168.50.183:8080");
 
             // Add support for WCF services
             builder.Services.AddServiceModelServices();
